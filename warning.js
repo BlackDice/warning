@@ -16,7 +16,7 @@
  * same logic and follow the same code paths.
  */
 
-var __DEV__ = process.env.NODE_ENV !== 'production';
+var __DEV__ = process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test';
 
 var warning = function() {};
 
